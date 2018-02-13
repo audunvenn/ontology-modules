@@ -1,21 +1,9 @@
 package misc;
-import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.StopAnalyzer;
@@ -24,29 +12,17 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
 import org.apache.lucene.util.Version;
 import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.model.AxiomType;
-import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLAnnotation;
-import org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom;
-import org.semanticweb.owlapi.model.OWLAxiom;
-import org.semanticweb.owlapi.model.OWLClass;
-import org.semanticweb.owlapi.model.OWLClassExpression;
-import org.semanticweb.owlapi.model.OWLDataProperty;
-import org.semanticweb.owlapi.model.OWLEntity;
-import org.semanticweb.owlapi.model.OWLNamedIndividual;
-import org.semanticweb.owlapi.model.OWLObjectProperty;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
-import org.semanticweb.owlapi.reasoner.NodeSet;
-import org.semanticweb.owlapi.reasoner.OWLReasoner;
 import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
 import org.semanticweb.owlapi.reasoner.structural.StructuralReasonerFactory;
 
-
+/**
+ * This class provides helper-methods such as text processing, 
+ * @author audunvennesland
+ *
+ */
 public class StringUtils {
 
-	//private static OWLAxiomIndex ontology;
 	static OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
 	static OWLReasonerFactory reasonerFactory = new StructuralReasonerFactory();
 
@@ -291,6 +267,12 @@ public class StringUtils {
 
 
 	
+	/**
+	 * Removes typical stopwords from a string representation. Uses the stopword library of Lucene. 
+	 * @param inputText
+	 * @return
+	 * @throws IOException
+	 */
 	public static String removeStopWordsFromString(String inputText) throws IOException {
 
 		StringBuilder tokens = new StringBuilder();
@@ -309,125 +291,7 @@ public class StringUtils {
 
 	}
 
-	// ***Methods not in use***
 
-	/*	*//**
-	 * Takes as input a Set of strings along with a separator (usually whitespace) and uses StringBuilder to create a string from the Set.
-	 * @param set
-	 * @param sep
-	 * @return result
-	 *//*
-	public static String join(Set<String> set, String sep) {
-		String result = null;
-		if(set != null) {
-			StringBuilder sb = new StringBuilder();
-			Iterator<String> it = set.iterator();
-			if(it.hasNext()) {
-				sb.append(it.next());
-			}
-			while(it.hasNext()) {
-				sb.append(sep).append(it.next());
-			}
-			result = sb.toString();
-		}
-		return result;
-	}*/
-
-	/*	*//**
-	 * Takes as input a String and produces an array of Strings from this String
-	 * @param s
-	 * @return result
-	 *//*
-	public static String[] split(String s) {
-		String[] result = s.split(" ");
-
-		return result;
-	}*/
-
-	/*	*//**
-	 * Takes as input two arrays of String and compares each string in one array with each string in the other array if they are equal
-	 * @param s1
-	 * @param s2
-	 * @return results - basically an iterator that counts the number of equal strings in the two arrays
-	 *//*
-	public static int commonWords(String[] s1, String[] s2) {
-
-		int results = 0;
-
-		for (int i = 0; i < s1.length; i++) {
-			for (int j = 0; j < s2.length; j++) {
-				if (s1[i].equals(s2[j])) {
-					results++;
-				}
-			}
-		}
-
-		return results;
-	}*/
-
-	/*	public static String removeDuplicates(String s) {
-
-		return new LinkedHashSet<String>(Arrays.asList(s.split(" "))).toString().replaceAll("(^\\[|\\]$)", "").replace(", ", " ");
-
-
-	}*/
-
-	/*public static String getString(OWLEntity e, OWLOntology ontology) {
-
-		String label = e.getIRI().toString();
-
-		if (label.contains("#")) {
-			label = label.substring(label.indexOf('#')+1);
-			return label;
-		}
-
-		if (label.contains("/")) {
-			label = label.substring(label.lastIndexOf('/')+1);
-			return label;
-		}
-
-		Set<OWLAnnotation> labels = e.getAnnotations(ontology);
-		//.getAnnotationPropertiesInSignature();
-
-		if (labels != null && labels.size() > 0) {
-			label = ((OWLAnnotation) labels.toArray()[0]).getValue().toString();
-			if (label.startsWith("\"")) {
-				label = label.substring(1);
-			}
-
-			if (label.contains("\"")) {
-				label = label.substring(0, label.lastIndexOf('"'));
-			}
-		}
-
-		return label;
-	}*/
-
-	public static void main(String args[]) {
-		String testString = "motionPicture";
-		String experiment = "biblio-bibo";
-
-		System.out.println(tokenize(testString, true));
-
-		String onto1 = experiment.substring(0, experiment.lastIndexOf("-"));
-		String onto2 = experiment.substring(experiment.lastIndexOf("-")+1, experiment.length());
-		System.out.println(onto1);
-
-		System.out.println(onto2);
-
-		String test = "academicArticle";
-
-		String newString = stringTokenize(test, false);
-
-		System.out.println("Original string: " + test + ", tokenized string: " + newString);
-
-		String prop = "hasCar";
-		System.out.println("Without prefix the property name is " + stripPrefix(prop));
-
-		String s = "Testing underscore";
-		System.out.println("Without underscore: " + replaceUnderscore(s));
-
-	}
 
 
 
