@@ -32,11 +32,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/org.semanticweb.HermiT.jar"/>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/HermiT.jar"/>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/procalign.jar"/>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/ontowrap.jar"/>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/alignsvc.jar"/>
-	<classpathentry kind="lib" path="/Users/audunvennesland/git/best-ontology-modularisation/lib/align.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/org.semanticweb.HermiT.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/HermiT.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/procalign.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/ontowrap.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/alignsvc.jar"/>
+	<classpathentry kind="lib" path="/Users/audunvennesland/git/ontology-modularisation/ontology-modularisation/lib/align.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
