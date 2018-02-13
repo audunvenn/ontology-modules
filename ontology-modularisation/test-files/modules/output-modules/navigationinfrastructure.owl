@@ -1,0 +1,1623 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#"
+     xml:base="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl"
+     xmlns:navigationinfrastructure="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#integer"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-aerodromeBeacon -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-aerodromeBeacon">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Aerodrome"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-colour -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-colour">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeColourType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-structureBeacon -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-structureBeacon">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VerticalStructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-type">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeGroundLightingType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForNavaidEquipment-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForNavaidEquipment-type">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForNavaidEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeAuthorityRoleType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationStation-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationStation-type">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeAuthorityRoleType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationSystem-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationSystem-type">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeAuthorityRoleType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-channel -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-channel">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEChannelType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-displace -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-displace">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-ghostFrequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-ghostFrequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder-informationProvision -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder-informationProvision">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InformationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-referenceDatumHeight -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-referenceDatumHeight">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-referenceDatumHeightAccuracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-referenceDatumHeightAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-courseQuality -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-courseQuality">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeCourseQualityILSType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-ilsGlidepath -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-ilsGlidepath">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-integrityLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-integrityLevel">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeIntegrityLevelILSType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-localizer -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-localizer">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-marker -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-marker">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-signalPerformance -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem-signalPerformance">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSignalPerformanceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-backCourseUsable -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-backCourseUsable">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeILSBackCourseType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-channel -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-channel">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSChannelType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSAzimuthType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-class -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-class">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMarkerBeaconSignalType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-mlsAzimuth -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-mlsAzimuth">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-mlsElevation -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-mlsElevation">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-signalPerformance -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem-signalPerformance">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSignalPerformanceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-class -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-class">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNDBUsageType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-emissionBand -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-emissionBand">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeEmissionBandType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-markerPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-markerPosition">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodePositionInILSType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus-operationalStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus-operationalStatus">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeStatusNavaidType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus-signalType -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus-signalType">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioSignalType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-par -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-par">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PrecisionApproachRadar"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-sector -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-sector">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CircleSector"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-signalType -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-signalType">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioSignalType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-specialNavigationStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-specialNavigationStation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-ssr -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-ssr">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SecondarySurveillanceRadar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioFrequencyAreaType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-authority -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-authority">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Organisation"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-availability -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-availability">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-emissionClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-emissionClass">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioEmissionType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-monitoring -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-monitoring">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-radiofrequencyarea -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-radiofrequencyarea">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-availability -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-availability">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-purpose -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-purpose">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidPurposeType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-radioNavaidEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-radioNavaidEquipment">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-runwayDirection -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-runwayDirection">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RunwayDirection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-servedAerodrome -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-servedAerodrome">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Aerodrome"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-touchDownLiftOff -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-touchDownLiftOff">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TouchDownLiftOff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidServiceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-availability -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-availability">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-emission -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-emission">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioEmissionType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-responsibleOrganisation -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-responsibleOrganisation">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Organisation"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-systemChain -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-systemChain">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationStationType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus-operationalStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus-operationalStatus">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeStatusNavaidType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationSystemType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN-channel -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN-channel">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeTACANChannelType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-frequency">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-informationService -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-informationService">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InformationService"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeVORType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-zeroBearingDirection -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-zeroBearingDirection">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNorthReferenceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-angleAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-angleAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-slope -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath-slope">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-declination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-declination">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-magneticBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-magneticBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-magneticBearingAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-magneticBearingAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-trueBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-trueBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-trueBearingAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-trueBearingAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-widthCourse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-widthCourse">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-widthCourseAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer-widthCourseAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleCoverLeft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleCoverLeft">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleCoverRight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleCoverRight">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleProportionalLeft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleProportionalLeft">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleProportionalRight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-angleProportionalRight">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-magneticBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-magneticBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-trueBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-trueBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-trueBearingAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth-trueBearingAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleMinimum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleMinimum">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleNominal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleNominal">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleSpan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation-angleSpan">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-auralMorseCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-auralMorseCode">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-axisBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon-axisBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-collocationGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-collocationGroup">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-angleScallop -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea-angleScallop">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-dateMagneticVariation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-dateMagneticVariation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-designator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-designator">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-magneticVariation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-magneticVariation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-magneticVariationAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-magneticVariationAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-designator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-designator">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-magneticBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-magneticBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-trueBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility-trueBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-designator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-designator">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN-declination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN-declination">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-declination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR-declination">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Aerodrome -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Aerodrome"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A light specifically provided as an aid to air navigation, with the exception of obstacle lights and lights forming part of surface or approach lighting systems</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-isFlashing -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight-isFlashing">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AeronauticalGroundLight"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">An indication whether the light is steady or flashing.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForNavaidEquipment -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForNavaidEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">The level of responsibility of an organisation for a radio navigation aid.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationStation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationStation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">The level of responsibility of an organisation for a special navigation station.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationSystem -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#AuthorityForSpecialNavigationSystem">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">The level of responsibility of an organisation for a special navigation system.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CircleSector -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CircleSector"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeAuthorityRoleType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeAuthorityRoleType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeColourType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeColourType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeCourseQualityILSType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeCourseQualityILSType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEChannelType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEChannelType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeEmissionBandType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeEmissionBandType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeGroundLightingType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeGroundLightingType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeILSBackCourseType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeILSBackCourseType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeIntegrityLevelILSType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeIntegrityLevelILSType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSAzimuthType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSAzimuthType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSChannelType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSChannelType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMarkerBeaconSignalType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMarkerBeaconSignalType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNDBUsageType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNDBUsageType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidPurposeType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidPurposeType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidServiceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidServiceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNorthReferenceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNorthReferenceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodePositionInILSType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodePositionInILSType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioEmissionType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioEmissionType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioFrequencyAreaType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioFrequencyAreaType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioSignalType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioSignalType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSignalPerformanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSignalPerformanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationStationType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationStationType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationSystemType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationSystemType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeStatusNavaidType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeStatusNavaidType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeTACANChannelType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeTACANChannelType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeVORType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeVORType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DME">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Ultra High Frequency (UHF) ground equipment that is used in conjunction with airborne equipment to determine distance between the airborne and ground equipment.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">An electronic device used to determine the position of a radio source by means of directional antennas, which receives the strongest radio signal when it is pointing directly at the transmitter.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder-isDoppler -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder-isDoppler">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#DirectionFinder"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">An indication whether the equipment uses the doppler effect for higher precision.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ILSGlidepath">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A component of an ILS consisting of a UHF transmitter radiating signals and providing a straight line descent path in the vertical plane containing the centre line of the runway served by the ILS, and thereby furnishing descent information down to the lowest authorized decision height or to the surface of a runway, depending on the Facility Performance Category of the ILS.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InformationService -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InformationService"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#InstrumentLandingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A combination of radio navigation services intended to facilitate aircraft in landing by providing lateral and vertical guidance including indications of distance from the optimum point of landing.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Localizer">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A component of an ILS consisting of a VHF transmitter, radiating signals in the direction served by the ILS, to provide a straight line descent path in the vertical plane containing the centre line of the runway.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSAzimuth">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A component of an MLS consisting of an SHF transmitter and associated equipment, radiating signals in a volume of airspace served by the MLS, thereby furnishing azimuth indications to aircraft approaching the runway or back azimuth indications to aircraft departing from the runway or performing a missed approach procedure.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MLSElevation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A component of an MLS consisting of an SHF transmitter, and associated equipment radiating signals within a volume of airspace served by the MLS, thereby furnishing elevation information as an angular value to aircraft approaching the runway.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MarkerBeacon">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A radio navigation service identifying a particular location in space by means of a 75 megahertz (MHz) transmitter which transmits a directional signal to be received by aircraft flying overhead.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#MicrowaveLandingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A precision approach and landing guidance system operating in the microwave spectrum, which provides position information and various ground-to-air data.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NDB">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A low or medium radio navigation service transmitting signals whereby the pilot of a suitably equipped aircraft can determine bearings, &apos;home in&apos; on, and/or track to or from the station.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">The navigation use of a radio navigation aid as a component of the radio navigation service.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-isNavigableLocation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent-isNavigableLocation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidComponent"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Indication that the radio navigation aid is used to specify the navigable location of the radio navigation service when the radio navigation service is used as a significant point.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Information about the radio navigation aid monitoring.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring-isMonitored -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring-isMonitored">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidEquipmentMonitoring"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">An indicator that the radio navigation aid is monitored.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#NavaidOperationalStatus">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Information about the operational status of the radio navigation aid.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Organisation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#Organisation"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PrecisionApproachRadar -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PrecisionApproachRadar"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioFrequencyArea">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A limitation, such as coverage, usability, etc., of a radio navigation aid or service frequency.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Any electronic system which provides information to be used by the pilot or aircraft navigation systems for position determination or flight path guidance.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-isFlightChecked -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-isFlightChecked">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Indication whether the radio navigation aid has been flight checked.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-isMobile -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid-isMobile">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Indication whether the radio navigation aid is mobile.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A service providing guidance information or position data for the efficient and safe operation of aircraft supported by one or more radio navigation aids.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-isFlightChecked -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService-isFlightChecked">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationService"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Indication whether the radio navigation service has been flight checked.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RunwayDirection -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RunwayDirection"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SecondarySurveillanceRadar -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SecondarySurveillanceRadar"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SimplifiedDirectionalFacility">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A radio navigation aid providing a final approach course similar to, but less precise than, that of the ILS localizer.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A land based station of a special navigation system.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationStationStatus">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Information about the status of the special navigation station.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#SpecialNavigationSystem">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Wide area (worldwide) navigation systems based on a chain of land or maritime stations providing radio frequency signals which can be used by airborne equipment to determine at least, the mobile two-dimensional position.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TACAN">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A navigation system developed by military and naval forces providing, as far as the navigating pilot is concerned and for suitably equipped aircraft, the same indication as a VOR/DME system.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TouchDownLiftOff -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#TouchDownLiftOff"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VOR">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#RadioNavigationAid"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">A short-range, very-high-frequency omnidirectional beacon which provides an indication in the aircraft of the bearing of the beacon, or left-right track indication.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValFrequencyType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValVerticalDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#ValVerticalDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VerticalStructure -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#VerticalStructure"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_ -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#_NavigationInfrastructure_">
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#PlainLiteral">Navigation infrastructure information.</comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

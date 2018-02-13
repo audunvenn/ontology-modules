@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:alext='http://exmo.inrialpes.fr/align/ext/1.0/'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>**</type>
+  <alext:method>misc.ISubMatcher#clone</alext:method>
+  <onto1>
+    <Ontology rdf:about="http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl">
+      <location>file:test-files/modules/output-modules/navigationinfrastructure.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl">
+      <location>file:test-files/modules/output-modules/baseinfrastructurecodelists.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationStationType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeSpecialNavigationStationType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeDMEType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeTACANChannelType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeTACANChannelType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeIntegrityLevelILSType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeIntegrityLevelILSType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSignalPerformanceType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeSignalPerformanceType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeDMEChannelType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeDMEChannelType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioFrequencyAreaType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeRadioFrequencyAreaType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeILSBackCourseType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeILSBackCourseType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidPurposeType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeNavaidPurposeType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNDBUsageType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeNDBUsageType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMarkerBeaconSignalType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeMarkerBeaconSignalType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeNavaidServiceType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeNavaidServiceType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSAzimuthType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeMLSAzimuthType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeEmissionBandType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeEmissionBandType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeMLSChannelType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeMLSChannelType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioSignalType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeRadioSignalType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeSpecialNavigationSystemType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeSpecialNavigationSystemType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeGroundLightingType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeGroundLightingType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeCourseQualityILSType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeCourseQualityILSType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeVORType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeVORType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeRadioEmissionType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeRadioEmissionType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodeStatusNavaidType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodeStatusNavaidType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.project-best.eu/owl/airm-mod/navigationinfrastructure.owl#CodePositionInILSType'/>
+      <entity2 rdf:resource='http://www.project-best.eu/owl/airm-mod/baseinfrastructurecodelists.owl#CodePositionInILSType'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

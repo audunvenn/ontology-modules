@@ -1,0 +1,834 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#"
+     xml:base="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:surveillanceinfrastructure="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#integer"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-configuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-configuration">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-service -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-service">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-status -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation-status">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService-status -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService-status">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeADSBGSServiceStatusType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-serviceClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-serviceClass">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeServiceClassType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-precisionApproachRadarType -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-precisionApproachRadarType">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodePARType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-reflector -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-reflector">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-contact -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-contact">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ContactInformation"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-range -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-range">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-rangeAccuracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-rangeAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-standbyPower -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-standbyPower">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeStandbyPowerType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-aerodrome -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-aerodrome">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Aerodrome"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-office -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-office">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Organisation"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-radarEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-radarEquipment">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-servedRunway -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-servedRunway">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Runway"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeRadarServiceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeReflectorType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-transponder -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-transponder">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeTransponderType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-groundStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-groundStation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Unit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageAltitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageAltitude">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageDistance -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageDistance">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-category21ReportPeriod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-category21ReportPeriod">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-reportingPeriod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-reportingPeriod">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-reportingPeriod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-reportingPeriod">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-slope -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-slope">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-slopeAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar-slopeAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarComponent-collocationGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarComponent-collocationGroup">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarComponent"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-dateMagneticVariation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-dateMagneticVariation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-magneticVariation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-magneticVariation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-magneticVariationAccuracy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-magneticVariationAccuracy">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-name">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-serialNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-serialNumber">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-broadcastIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-broadcastIdentifier">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-model">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Sensor-systemAreaCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Sensor-systemAreaCode">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Sensor"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-automatedRadarTerminalSystem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-automatedRadarTerminalSystem">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-tiltAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-tiltAngle">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageAzimuth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-verticalCoverageAzimuth">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">A ground station that may automatically transmit and/or receive ADS-B data such as identification, position and additional data, as appropriate, in a broadcast mode via a data link.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationService">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Service for an ADS-B Ground Station</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Information concerning the configuration of an ADS-B Ground Station service.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isAngleOfArrivalValidationCapable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isAngleOfArrivalValidationCapable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Validation of the reported position of the target by comparison with the angle of the arriving message</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isPositionChangeVersusVelocityValidationCapable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isPositionChangeVersusVelocityValidationCapable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Validation of the reported velocity of the target by comparison with the position change since the last message</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isPowerVersusRangeValidationCapable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isPowerVersusRangeValidationCapable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Validation of the reported target position by comparison of the amplitude of the signal with the calculated range of the target relative to the sensor.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isTimeOfArrivalVersusDistanceValidationCapable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isTimeOfArrivalVersusDistanceValidationCapable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Validation of the reported position of the target by evaluating the sequence of reception of the message by multiple sensors.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isWamIntegrationValidationCapable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration-isWamIntegrationValidationCapable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationServiceConfiguration"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Validation of the reported target data by comparison with the data calculated by a WAM system.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Information concerning the status of an ADS-B Ground Station.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isDataOperationallyUsable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isDataOperationallyUsable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication that released data can be used in operations.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isDataProcessorOverloaded -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isDataProcessorOverloaded">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication that the data processor is overloaded.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isGroundInterfaceDataCommunicationsOverloaded -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isGroundInterfaceDataCommunicationsOverloaded">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication that ground interface data communications is overloaded.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isTimeSourceValid -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus-isTimeSourceValid">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ADSBGroundStationStatus"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication that the time source is valid.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Aerodrome -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Aerodrome"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeADSBGSServiceStatusType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeADSBGSServiceStatusType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodePARType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodePARType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeRadarServiceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeRadarServiceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeReflectorType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeReflectorType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeServiceClassType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeServiceClassType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeStandbyPowerType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeStandbyPowerType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeTransponderType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#CodeTransponderType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ContactInformation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ContactInformation"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Organisation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Organisation"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PrecisionApproachRadar">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Primary radar equipment used to determine the position of an aircraft during final approach, in terms of lateral and vertical deviations relative to a nominal approach path, and in range relative to touchdown.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarComponent -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarComponent">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">The use of a radar equipment as a component of the radar service provided by a radar system.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">A physical radar equipment.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isDigital -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isDigital">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the radar equipment is digital.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isDualChannel -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isDualChannel">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the radar equipment has dual frequency.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForMilitaryUseOnly -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForMilitaryUseOnly">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the equipment is for military use only.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForSpecialAircraftOnly -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForSpecialAircraftOnly">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the equipment is to be only used for certain type of aircraft that are capable of using it.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForSpecialUseOnly -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isForSpecialUseOnly">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the equipment is for special use procedures only.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isMovingTargetIndicatorAvailable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment-isMovingTargetIndicatorAvailable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether a Moving Target Indicator (MTI) is available for the component.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">One or more radar equipments providing radar services.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-isGeneralTerrainMonitor -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem-isGeneralTerrainMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarSystem"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether aircraft clearance above the highest terrain and obstacles in a general area is monitored.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Reflector">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">A reflector used with a precision approach radar.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Runway -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Runway"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">A surveillance radar system which uses transmitters/receivers (interrogators) and transponders.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-isAutonomous -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-isAutonomous">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the SSR is autonomous.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-isMonopulse -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar-isMonopulse">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SecondarySurveillanceRadar"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the SSR is monopulse radar.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Sensor -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">A generic piece of equipment which detects targets and generates target reports.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceGroundStation -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceGroundStation">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Information about the ground station where the radar scope is utilised.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceGroundStation-isVideoMapAvailable -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceGroundStation-isVideoMapAvailable">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceGroundStation"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether a Video Map is available for the component.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#RadarEquipment"/>
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Radar equipment used to determine the position of an aircraft in range and azimuth.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-isAntennaTiltFixed -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar-isAntennaTiltFixed">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#SurveillanceRadar"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Indication whether the antenna tilt is fixed.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Unit -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#Unit"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValVerticalDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#ValVerticalDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_ -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#_SurveillanceInfrastructure_">
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/surveillanceinfrastructure.owl#PlainLiteral">Surveillance infrastructure information. </comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.project-best.eu/owl/airm-mod/obstacle.owl#"
+     xml:base="http://www.project-best.eu/owl/airm-mod/obstacle.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obstacle="http://www.project-best.eu/owl/airm-mod/obstacle.owl#">
+    <owl:Ontology rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#integer"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#string -->
+
+    <rdfs:Datatype rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-altitudeAdjustment -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-altitudeAdjustment">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-altitudeAdjustmentType -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-altitudeAdjustmentType">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltitudeAdjustmentType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-primaryAlternateMinimum -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-primaryAlternateMinimum">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltimeterType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-assessedHoldingProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-assessedHoldingProcedure">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingProcedure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-holdingFix -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-holdingFix">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#SignificantPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-legLengthAway -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-legLengthAway">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-legLengthToward -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-legLengthToward">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-lowerLimit -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-lowerLimit">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-speedLimit -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-speedLimit">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValSpeedType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-unplannedHolding -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-unplannedHolding">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#UnplannedHolding"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-upperLimit -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-upperLimit">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-obstacle -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-obstacle">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#VerticalStructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-obstructionIdentificationSurfaceCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-obstructionIdentificationSurfaceCondition">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAssessmentSurfaceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAreaType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-aircraftCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-aircraftCategory">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AircraftCategory"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-assessedAltitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-assessedAltitude">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-holdingassessment -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-holdingassessment">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-significantObstacle -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-significantObstacle">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-slopeLowerAltitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-slopeLowerAltitude">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-surfaceZone -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-surfaceZone">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstructionIdSurfaceZoneType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-type -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-type">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAssessmentSurfaceType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstacleDistance -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstacleDistance">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstaclePlacement -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstaclePlacement">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeRelativePositionType"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-adjustment -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-adjustment">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-minimumAltitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-minimumAltitude">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-obstaclePlacement -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-obstaclePlacement">
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement"/>
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-requiredClearance -->
+
+    <owl:ObjectProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-requiredClearance">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-patternTemplate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-patternTemplate">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-gradientLowHigh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-gradientLowHigh">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-safetyRegulation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-safetyRegulation">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-sectionNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-sectionNumber">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-slope -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea-slope">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstacleBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-obstacleBearing">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-pointType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement-pointType">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-slopePenetration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-slopePenetration">
+        <rdfs:domain rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <rdfs:range rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AircraftCategory -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AircraftCategory"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Operational factors applied to obstacle clearance altitudes to produce the safest usable altitude.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-isLocalRemote -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment-isLocalRemote">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#AltitudeAdjustment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Indication if the altitude adjustment is based on a local or a remote altimeter.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltimeterType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltimeterType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltitudeAdjustmentType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeAltitudeAdjustmentType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAreaType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAreaType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAssessmentSurfaceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstacleAssessmentSurfaceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstructionIdSurfaceZoneType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeObstructionIdSurfaceZoneType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeRelativePositionType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#CodeRelativePositionType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">The geometry of surfaces that define altitude levels and  the structure of an area used to evaluate obstacles for determining holding patterns.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-isForTurbulentAir -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment-isForTurbulentAir">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingAssessment"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Indication that the evaluation is for turbulent air.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingProcedure -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#HoldingProcedure"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleArea">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">An area used for the purpose of collecting obstacle data, as necessary for air navigation systems or functions.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstacleAssessmentArea">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">The geometry of surfaces used to define the altitude the length of a segment, holding pattern, etc., in function of the obstructions located in the area.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ObstaclePlacement">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Provides the location relative to a given point.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">The highest airspace, obstacle or terrain relative to a prescribed plane within a specified area.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isAssessmentSurfacePenetrated -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isAssessmentSurfacePenetrated">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">A code indicating whether the controlling obstacle penetrates the assessment surfaces.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isCloseIn -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isCloseIn">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Indication whether the obstruction penetrates the 40:1 OCS, therefore requiring a climb gradient to 200 feet or less above the departure end of runway.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isControlling -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction-isControlling">
+        <rdfs:subClassOf rdf:resource="http://www.project-best.eu/owl/airm-mod/obstacle.owl#Obstruction"/>
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Indication whether it is a controlling obstruction for the associated obstacle assessment area.</comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#SignificantPoint -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#SignificantPoint"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#UnplannedHolding -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#UnplannedHolding"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValSpeedType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValSpeedType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#ValVerticalDistanceType"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#VerticalStructure -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#VerticalStructure"/>
+    
+
+
+    <!-- http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_ -->
+
+    <owl:Class rdf:about="http://www.project-best.eu/owl/airm-mod/obstacle.owl#_Obstacle_">
+        <comment rdf:datatype="http://www.project-best.eu/owl/airm-mod/obstacle.owl#PlainLiteral">Ground based objects that are detrimental to the safe execution of flights.</comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.8.1099) http://owlapi.sourceforge.net -->
+
